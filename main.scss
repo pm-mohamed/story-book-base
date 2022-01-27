@@ -1,0 +1,7 @@
+$primary: pink;
+$secondary: green;
+
+.storybook-button--primary {
+    color: $primary !important;
+    background-color: $secondary !important;
+}

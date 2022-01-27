@@ -35,11 +35,16 @@
     "@storybook/addon-essentials": "^6.4.14",
     "@storybook/addon-links": "^6.4.14",
     "@storybook/html": "^6.4.14",
+    "@storybook/preset-scss": "^1.0.3",
     "@whitespace/storybook-addon-html": "^5.0.0",
     "babel-loader": "^8.2.3",
     "babel-plugin-macros": "^3.1.0",
     "babel-plugin-polyfill-corejs3": "^0.5.1",
-    "core-js": "^3.20.3"
+    "core-js": "^3.20.3",
+    "css-loader": "^3.4.1",
+    "sass": "^1.49.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.2"
   },
   "dependencies": {}
 }
