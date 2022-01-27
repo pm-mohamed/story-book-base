@@ -10,14 +10,6 @@ module.exports = {
         cssLoaderOptions: {
            modules: true,
         },
-        sassLoaderOptions: {
-          additionalData: (content) => {
-            // paths are relative to root dir in this case
-            return `
-              @import '../main.scss';
-            `
-          }
-        }
       }
     },
       "@storybook/addon-links",
