@@ -24,15 +24,15 @@ const Template = ({ label, ...args }) => {
   return createButton({ label, ...args });
 };
 
-export const Primary = Template.bind({});
-export const Secondary = Template.bind({});
+export const PrimaryButton = Template.bind({});
+export const SecondaryButton = Template.bind({});
 // More on args: https://storybook.js.org/docs/html/writing-stories/args
-Primary.args = {
+PrimaryButton.args = {
   label: 'Primary',
   className: 'primary-btn'
 };
 
-Secondary.args = {
+SecondaryButton.args = {
   label: 'Secondary',
   className: 'secondary-btn'
 };
