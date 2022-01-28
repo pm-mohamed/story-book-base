@@ -106,6 +106,26 @@ h6 {
   font-size                   : $font-size-h6;
 }
 
+.primary-heading { 
+  color: #111;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 100px; 
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+}
+
+.secondary-heading { 
+  color: #7c795d;
+  font-family: 'Trocchi', serif;
+  font-size: 100px;
+  font-weight: normal;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+}
+
 //----------------------------------------------------------------------------------------------
 // GLOBAL CLASSES
 //----------------------------------------------------------------------------------------------
