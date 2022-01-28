@@ -17,10 +17,10 @@ export const SecondaryTextInput = Template.bind({});
 
 PrimaryTextInput.args = {
   className: 'primary-text-input',
-  placeholder: 'Write here!'
+  placeholder: 'Text'
 };
 
 SecondaryTextInput.args = {
   className: 'secondary-text-input',
-  placeholder: 'Write here!'
+  placeholder: 'Text'
 };

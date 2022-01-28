@@ -2,10 +2,9 @@ export const createTextInput = ({
   className,
   placeholder
 }) => {
-  const textInput = document.createElement('INPUT');
-  textInput.setAttribute("type", "text");
-  textInput.className = [`${className}`];
-  textInput.placeholder = placeholder;
+  const wrapper= document.createElement('div');
+  wrapper.innerHTML=  `<input type="text" class=${className} placeholder=${placeholder} />`;
+  const textInput= wrapper.firstChild;
 
   return textInput;
 };
