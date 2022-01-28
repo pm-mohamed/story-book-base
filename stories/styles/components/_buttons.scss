@@ -38,3 +38,21 @@ $secondary: navy;
         background-color: rgb(33, 33, 176);
     }
 }
+
+.secondary-btn {
+    color: white;
+    background-color: red;
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 3em;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    font-size: 16px;
+    padding: 12px 24px;
+
+    &:hover {
+        background-color: rgb(181, 58, 58);
+    }
+}

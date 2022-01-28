@@ -7,6 +7,7 @@ export default {
   argTypes: {
     backgroundColor: { control: 'color' },
     label: { control: 'text' },
+    className: { control: 'text' },
     onClick: { action: 'onClick' },
     primary: { control: 'boolean' },
     size: {
@@ -24,8 +25,14 @@ const Template = ({ label, ...args }) => {
 };
 
 export const Primary = Template.bind({});
+export const Secondary = Template.bind({});
 // More on args: https://storybook.js.org/docs/html/writing-stories/args
 Primary.args = {
-  primary: true,
   label: 'Primary',
+  className: 'primary-btn'
+};
+
+Secondary.args = {
+  label: 'Secondary',
+  className: 'secondary-btn'
 };
