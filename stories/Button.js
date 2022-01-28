@@ -1,6 +1,6 @@
 export const createButton = ({
-  label = "",
-  className = "",
+  label,
+  className,
   onClick,
 }) => {
   const btn = document.createElement('button');
