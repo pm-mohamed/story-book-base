@@ -29,10 +29,10 @@ export const SecondaryButton = Template.bind({});
 // More on args: https://storybook.js.org/docs/html/writing-stories/args
 PrimaryButton.args = {
   label: 'Primary',
-  className: 'primary-btn'
+  className: 'button button--primary button--small'
 };
 
 SecondaryButton.args = {
   label: 'Secondary',
-  className: 'secondary-btn'
+  className: 'button button--secondary button--large'
 };

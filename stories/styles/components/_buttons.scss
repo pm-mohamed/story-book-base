@@ -17,42 +17,54 @@
 //----------------------------------------------------------------------------------------------
 $primary: white;
 $secondary: navy;
+$third: red;
+$forth: rgb(181, 58, 58);
+$fifth: rgb(33, 33, 176);
 
 //----------------------------------------------------------------------------------------------
 // CORE
 //----------------------------------------------------------------------------------------------
-.primary-btn {
-    color: $primary;
-    background-color: $secondary;
+.button {
+    //General Rules for button
+    cursor: pointer;
+    display: inline-block;
     font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     border: 0;
-    border-radius: 3em;
-    cursor: pointer;
-    display: inline-block;
-    line-height: 1;
-    font-size: 16px;
-    padding: 12px 24px;
 
-    &:hover {
-        background-color: rgb(33, 33, 176);
+    //Color Rules
+    &.button--primary {
+        color: $primary;
+        background-color: $secondary;
+    
+        &:hover {
+            background-color: $fifth;
+        }
     }
-}
 
-.secondary-btn {
-    color: white;
-    background-color: red;
-    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    border: 0;
-    border-radius: 3em;
-    cursor: pointer;
-    display: inline-block;
-    line-height: 1;
-    font-size: 16px;
-    padding: 12px 24px;
+    &.button--secondary{
+        color: $primary;
+        background-color: $third;
 
-    &:hover {
-        background-color: rgb(181, 58, 58);
+        &:hover {
+            background-color: $forth;
+        }
+    }
+
+    //Size Rules
+    &.button--small {
+        line-height: 1;
+        font-size: 14px;
+        padding: 10px 10px;
+        border-radius: 3em;
+        border: 0;
+    }
+
+    &.button--large {
+        line-height: 1;
+        font-size: 16px;
+        padding: 12px 24px;
+        border-radius: 3em;
+        border: 0;
     }
 }
